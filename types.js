@@ -42,3 +42,6 @@ if (isNaN(7 / 'bla')) {
 else {
     console.log('geen nan')
 }
+
+let text = 'hoi🎉🌈👍';
+console.log([...text].length);
