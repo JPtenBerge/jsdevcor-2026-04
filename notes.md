@@ -80,7 +80,7 @@ bundlers:
     - prod: kwalitatieve build met Rollup/Rolldown, typechecking, optimalisatie met bijv. tree-shaking
     - dev: zo snel mogelijk builden met esbuild/Rolldown. geen typechecking. HMR faciliteren om je webapp zo snel en soepel mogelijk te verversen.
 
-Ecosysteem der JS
+## Ecosysteem der JS
 
 Frontend libraries (DOM API)
 
