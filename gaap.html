@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="dom.js" type="module"></script>
+    <style>
+      td img {
+        max-width: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- DOM: Document Object Model API -->
+
+    <button onclick="addFood()">Voeg voedselding toe</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Voedsel</th>
+          <th>Calorie&euml;n</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <template id="template-voedsel">
+          <tr>
+            <td class="id"></td>
+            <td class="description"></td>
+            <td>
+              <span class="kcal"></span>
+              kcal
+            </td>
+            <td><img class="photo" /></td>
+          </tr>
+        </template>
+        <tr>
+          <td>4</td>
+          <td>Donut</td>
+          <td>300 kcal</td>
+          <td><img src="donut.png" /></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Cappuccino</td>
+          <td>50 kcal</td>
+          <td>
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hamiltonbeach.com%2Fmedia%2Frecipes%2Fcappucino-fotoliastock.jpg&f=1&nofb=1&ipt=4ed1c33c7ebf15de46075a963e9201d80d204970f0f0720b349e446aaff33bee"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Goor koppie</td>
+          <td>3 kcal</td>
+          <td>
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgeng.jagran.com%2Fimages%2F2023%2Fmar%2Fbenefits-of-black-coffee1678781587577.jpg&f=1&nofb=1&ipt=134c60c6a918c4a9acc5981ffa6570b40f551060fe8d1feaddb7fa3f3b6e674a"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
